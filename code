@@ -1,0 +1,9 @@
+t = int(input())
+
+for i in range(t):
+  c = input()
+  if c=="c" or c=="o" or c=="d" or c=="e" or c=="f" or c=="r" or c=="s":
+  #othoba if c in {"c", "o", "d", "e", "f", "r", "s"} etao hoy
+    print("YES")
+  else:
+    print("NO")
